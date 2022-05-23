@@ -1,0 +1,21 @@
+name: DEPLOY_PROD
+on:
+  push:
+    branches: [ deployment/prod ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      - run:  docker build -f Dockerfile.prod -t egsc/frontend
+      - run: docker push egsc/frontend
+      - uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+      - run: doctl kubernetes cluster kubeconfig save prod-uhouse
+      - run: kubectl rollout restart deployment frontend

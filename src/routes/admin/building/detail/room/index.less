@@ -1,0 +1,37 @@
+
+#modal-form-customer-rent-form{
+  .overflow-hidden {
+    overflow: scroll !important;
+  }
+}
+
+.ant-form {
+  .ant-picker {
+    @apply  w-full;
+  }
+}
+.bg-blue-500.text-white.text-base.p-2.w-full.rounded-xl.mt-1{
+  @apply w-56 ml-5;
+}
+
+// .grid.gap-x-5.grid-cols-12 {
+  .grid.gap-x-5.grid-cols-12 .form-add{
+    .form-add-item{
+      @apply mb-0;
+      .ant-form-item{
+        @apply ml-0;
+        &:nth-of-type(1){
+          @apply border-t-0;
+        }
+        &:nth-of-type(2){
+          @apply border-t-0 border-l-0;
+        }
+      }
+      &:first-child{
+        .ant-form-item{
+          @apply border-t;
+        }
+      }
+    }
+  }
+// }

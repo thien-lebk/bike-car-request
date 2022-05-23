@@ -1,0 +1,75 @@
+.userList {
+  .intro-x {
+    @apply mb-24;
+    .featureBar {
+      @apply bg-white mb-0 py-3 px-10;
+    }
+    .ant-table-row {
+      .ant-table-cell:nth-child(7) {
+        @apply text-center;
+      }
+    }
+  }
+  .ant-form {
+    .ant-col {
+      .ant-col-xs-24:nth-child(4) {
+        @apply inline-block w-1/2;
+      }
+      .ant-col-xs-24:nth-child(5) {
+        @apply inline-block w-1/2;
+      }
+    }
+  }
+}
+.form-profile {
+    .flex {
+      @apply justify-end items-end	;
+    }
+    button {
+      @apply  w-full lg:w-32 ;
+    }
+  .ant-form {
+    .ant-picker {
+      @apply  w-full;
+    }
+  }
+  .ant-tabs.ant-tabs-top > .ant-tabs-nav > .ant-tabs-nav-wrap{
+    @apply border-gray-400 border-b;
+  }
+}
+.form-change-pass {
+  .ant-form-item {
+    @apply  lg:grid;
+    @apply lg:grid-cols-3 ;
+    .ant-form-item-label {
+      @apply lg:col-span-1 ;
+    }
+    .ant-form-item-control {
+      @apply  lg:col-span-2;
+    }
+  }
+
+}
+// .arrow{
+//   .head{
+//     @apply w-0 h-0  border-l-4 border-solid border-l-transparent ;
+//     @apply border-r-transparent border-r-4 border-b-4 bottom-12 absolute left-1;
+
+//   }
+//   .tail{
+//     @apply h-0 w-6 absolute border border-dashed box-border rotate-90 -left-1 bottom-8 mb-1;
+
+//   }
+// }
+// .arrow-down{
+//   @apply md:-mt-5 lg:-mt-1 -rotate-180 mt-3 ;
+// }
+
+.user-avatar:hover{
+  img{
+    opacity: 0.7;
+  }
+  .icon-upload{
+    @apply block text-white;
+  }
+}

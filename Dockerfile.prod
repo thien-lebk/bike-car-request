@@ -1,0 +1,46 @@
+
+# FROM node:14-alpine as builder
+# WORKDIR /frontend
+# COPY ./package.json /frontend
+# # ENV NODE_ENV=production
+# RUN npm install --only=production
+# COPY . .
+# RUN npm run build:dev
+
+# # Handle Nginx
+# FROM nginx
+
+# COPY --from=builder /frontend/build /usr/share/nginx/html
+# EXPOSE 80
+# ENTRYPOINT ["nginx" , "-g", "daemon off;"]
+
+
+
+# get the base node image
+FROM node:14-alpine as builder
+
+# set the working dir for container
+WORKDIR /frontend
+
+# copy the json file first
+COPY ./package.json /frontend
+
+# install npm dependencies
+RUN npm install
+
+# copy other project files
+COPY . .
+
+ARG ENV=prod
+ENV ENV $ENV
+
+RUN npm run build:${ENV}
+
+# Handle Nginx
+FROM nginx
+ARG ENV
+ENV ENV $ENV
+COPY --from=builder /frontend/build /usr/share/nginx/html
+EXPOSE 80
+ENTRYPOINT ["nginx" , "-g", "daemon off;"]
+

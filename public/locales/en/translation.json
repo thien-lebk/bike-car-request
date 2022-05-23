@@ -1,0 +1,624 @@
+{
+  "components": {
+    "calendar": {
+      "more": "more"
+    },
+    "datatable": {
+      "pleaseEnterValueToSearch": "Search",
+      "reset": "Reset",
+      "search": "Search",
+      "areYouSureWant": "Are you sure want to delete ?",
+      "cancel": "Cancel",
+      "ok": "Ok"
+    },
+    "form": {
+      "ruleRequired": "This is a required field!",
+      "ruleEmail": "Please enter a valid email address!",
+      "ruleUsername": "Username contains no special characters, only letters and numbers!",
+      "ruleName": "Name contains no special characters, only letters and numbers!",
+      "ruleMinLength": "Please enter at least {{min}} characters!",
+      "ruleMaxLength": "Please enter maximum {{max}} characters!",
+      "ruleMinNumberLength": "Please enter at least {{min}} number characters!",
+      "ruleMaxNumberLength": "Please enter maximum {{max}} number characters!",
+      "ruleMin": "Please enter minimum {{min}} number!",
+      "ruleMax": "Please enter maximum {{max}} number!",
+      "ruleMaxSize": "You can only upload up to {{max}}mb!",
+      "ruleMinNumber": "Vui lòng nhập giá trị lớn hơn {{min}}",
+      "only text": "Please enter only text!",
+      "only number": "Please enter only number!",
+      "rulePassword": "Password must contain at least one uppercase letter and one number!",
+      "rulePasswordNoWhiteSpace": "Password can't contain white space!",
+      "ruleAddress": "Address contains no special characters, only letters and numbers!",
+      "rulePhoneNumber": "Please enter a valid phone number!",
+      "confirm": "Confirm",
+      "rulesConfirmPassword": "Two passwords that you enter is inconsistent!",
+      "incorrectPathFormat": "Incorrect path format",
+      "Enter": "Enter",
+      "Upload": "Upload",
+      "Are you sure you want to Delete ?": "Are you sure you want to Delete ?",
+      "modal": {
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "cancel": "Cancel"
+    },
+    "media-management": {
+      "filename": "File name",
+      "fileSize": "File size",
+      "lastModified": "Last modified",
+      "detail": "Detail",
+      "areYouSure": "Are you sure you want to delete?",
+      "mediaManagement": "Media Management",
+      "filesOnSystem": "Files on system",
+      "addFiles": "Add files",
+      "multiFiles": "Multi files",
+      "createFolder": "Create folder",
+      "uploadFile": "Upload file",
+      "moveUpLevel": "Move up a level",
+      "outsideLink": "Outside link",
+      "save": "Save",
+      "nameFolder": "Name folder",
+      "onlyLettersAndDigitsAllowed": "Only letters and digits allowed"
+    },
+    "message": {
+      "Success": "Success",
+      "Fail": "Fail",
+      "Confirm": "Confirm",
+      "Close": "Close",
+      "Login": "Login",
+      "Confirm Delete": "Confirm Delete",
+      "Please Login": "Your password has been updated",
+      "Saved": "Saved",
+      "Saved Info": "Your information has been saved",
+      "Confirm OTP": "OTP has been sent on your email/phone number. Please check to confirm.",
+      "Are you sure want to delete": "Are you sure want to remove this {{object}} from the system? This action cannot be undone."
+    }
+  },
+  "titles": {
+    "ResetPassword": "Reset Password",
+    "Login": "Login",
+    "Forgot Password": "Forgot Password",
+    "Reset Password": "Reset Password",
+    "Send OTP": "Send OTP",
+    "Register": "Register",
+    "Manage": "Manage",
+    "Chat": "Chat",
+    "Search": "Search",
+    "Dashboard": "Dashboard",
+    "User": "User",
+    "User profile": "User profile",
+    "Role setting": "Role Setting",
+    "User managerment": "User managerment",
+    "Room information": "Room Information",
+    "Building information": "Building Information",
+    "Building list": "Building List",
+    "Building detail": "Building Detail",
+    "Motel room": "Motel room",
+    "Employee list": "Employee List",
+    "Job list": "Jobs List",
+    "Preview Contract" : "Preview Contract"
+  },
+  "columns": {
+    "auth": {
+      "login": {
+        "Username": "Username",
+        "Email": "Email",
+        "Enter Username": "Enter Username",
+        "Enter Password": "Enter Password",
+        "Enter Email": "Enter Email",
+        "password": "Password",
+        "remember": "Remember Me",
+        "New password": "New password",
+        "Enter new password": "Enter new password",
+        "Enter password": "Enter password",
+        "Confirm Password": "Confirm Password"
+      },
+      "register": {
+        "title": "Register",
+        "Register": "Register",
+        "subTitle": "",
+        "Fullname": "Full name",
+        "Enter Fullname": "Enter Fullname",
+        "Email": "Email",
+        "Contract": "Contract",
+        "Password": "Password",
+        "Birth Date": "Birth Date",
+        "Gender": "Gender",
+        "Male": "Male",
+        "Female": "Female",
+        "Identity Number": "Identity Number",
+        "Phone Number": "Phone Number",
+        "Do you already have an account?": "Do you already have an account?",
+        "Login": "Login",
+        "Address": "Address",
+        "Address Rule": "Address contains no special characters, only letters and numbers!",
+        "Phone number Rule": "Phone number is invalid!",
+        "Roles": "Responsible role"
+      }
+    },
+    "admin": {
+      "columnAdmin": {},
+      "profile": {
+        "LOGIN": "LOGIN",
+        "Sign Out": "Sign Out",
+        "Cancel": "Cancel",
+        "User Profile": "User Profile",
+        "My Profile": "My Profile",
+        "Account Management": "Account Management ",
+        "Fullname": "Full name",
+        "Enter Fullname": "Enter Fullname",
+        "Email": "Email",
+        "Password": "Password",
+        "Birth Date": "Birth Date",
+        "Gender": "Gender",
+        "Male": "Male",
+        "Female": "Female",
+        "Identity Number": "Identity Number",
+        "Phone Number": "Phone Number",
+        "Address": "Address",
+        "Save": "Save",
+        "Reset": "Reset"
+      },
+      "changePass": {
+        "New password": "New password",
+        "Current Password": "Current Password",
+        "Enter password": "Enter password",
+        "Enter new password": "Enter new password",
+        "Confirm Password": "Confirm Password",
+        "Update": "Update",
+        "Please Enter Pass": "Please enter your current password to change to a new password.",
+        "Change Password": "Change Password"
+      },
+      "user": {
+        "User": "user",
+        "Role": "Role",
+        "Action": "Action",
+        "Approve Request": "Confirm Approve",
+        "Approve Request Description": "Are you sure want to approve the request from this user?",
+        "Approve Success": "You have successfully granted permission to this user",
+        "Reject Request": "Confirm Reject",
+        "Reject Request Description": "Are you sure want to reject the request from this user?",
+        "Reject Success": "You have rejected role request for this user",
+        "Confirm Delete": "Confirm Delete",
+        "Confirm delete user": "Confirm delete user",
+        "Confirm delete text": "Are you sure you want to delete the role from this user?",
+        "Are you sure want to delete": "Are you sure want to remove this user from the system? This action cannot be undone."
+      },
+      "expenses": {
+        "Price": "Price (VND",
+        "Description": "Description",
+        "Unit Price": "Unit Price",
+        "Unit": "Unit ($)",
+        "Active": "Active"
+      },
+      "grantLandLort": {
+        "Contract Form Title": "Contract",
+        "Contract Input": "Contract"
+      },
+      "buildingInfo": {
+        "Building Name": "Building name",
+        "Building Type": "Building type",
+        "NumberRoom": "Number of rooms",
+        "Address": "Building address",
+        "Building": "Building",
+        "TextPNG": "Only *.png, *.jpg and *.jpeg files are accepted",
+        "Type": "Type",
+        "Number of room": "Number Of Room",
+        "Manager": "Manager",
+        "Total Room": "Total Room",
+        "Zalo": "Zalo Contact",
+        "Utility Name": "Utility name",
+        "Room Code": "Room Code",
+        "Category": "Category",
+        "Area": "Area (m²)",
+        "Rent Price": "Rent Price (VND)",
+        "Status": "Status",
+        "Hotel": "Hotel",
+        "Motel": "Motel",
+        "CHDV": "Serviced Apartment",
+        "GeneralInfo": "GENERAL INFOMATION",
+        "buildingManager": "BUILDING STAFF",
+        "Cost": "EXPENSES",
+        "buildingUtil": "UTILITIES",
+        "buildingList": "ROOM LIST",
+        "Attached Photo": "ATTACHED PHOTO",
+        "Building Staff": "Building Staff"
+      },
+      "building": {
+        "Building": "Building",
+        "building": "building",
+        "Utility": "Utility",
+        "Manager Name": "Manager Name",
+        "Description": "Description",
+        "Address": "Address",
+        "room": "room",
+        "cost": "cost",
+        "payment history": "payment history",
+        "schedule to see the room": "schedule to see the room",
+        "rule": "rule",
+        "equipment": "equipment",
+        "deleteRole": "Delete role",
+        "deleteRequest": "Delete request",
+        "deleteHistory": "Delete reject history",
+        "Rule length rule 255":"Không được nhập quá 255 kí tự",
+        "Rule length rule 1000":"Không được nhập quá 1000 kí tự"
+      },
+      "buildingManager": {
+        "buildingManager": "MANAGER",
+        "Manager Name": "Manager Name",
+        "Description": "Description",
+        "AddManager": "Add new manager"
+      },
+      "buildingUtinities": {
+        "Building": "building",
+        "Utility": "Utility",
+        "Description": "Description"
+      },
+      "buildingCost": {
+        "Price": "Expenses",
+        "Description": "Description",
+        "Unit Price": "Unit Price",
+        "Unit": "Unit"
+      },
+      "buildingImage": {
+        "Image": "Image",
+        "Added date": "Date",
+        "Added person": "Added person"
+      },
+      "roomInfo": {
+        "Room Name": "Room Name",
+        "Tenants Name": "Tenant's Name",
+        "Tenants Phone": "Phone Number",
+        "Area": "Area (m²)",
+        "Deposit Price": "Deposit Price",
+        "Bonus": "Bonus",
+        "Start Date": "Start Date",
+        "End Date": "End Date",
+        "Deposit Month": "Deposit Month",
+        "Room Type": "Room Type",
+        "Deposit": "Deposit",
+        "Price": "Price (VND)",
+        "Utilities": "Utilities",
+        "One Bed Room": "One Bed Room",
+        "Two Bed Room": "Two Bed Room",
+        "Number Tenants": "Number Tenants",
+        "One Bedroom": "One Bedroom",
+        "Two Bedroom": "Two Bedroom",
+        "Three Bedroom": "Three Bedroom",
+        "Mezzanine Room": "Mezzanine Room",
+        "Studio Room": "Studio Room",
+        "Duplex Room": "Duplex Room",
+        "Empty Room": "Empty Room",
+        "Schedule Room": "Schedule Room",
+        "Deposit Room": "Deposit Room",
+        "Rent Room": "Rent Room",
+        "Status": "Status",
+        "Equipment": "Equipment",
+        "Quantity": "Quantity",
+        "Identity Number": "Identity Number",
+        "Name": "Name",
+        "Birth Day": "Birth Day",
+        "Address": "Address",
+        "Job": "Job",
+        "Working Address": "Working Address",
+        "Phone Number": "Phone Number",
+        "Customer Type": "Customer Type"
+      },
+      "roomExpense": {
+        "Room Rules": "Room Rules"
+      },
+      "roomRules": {
+        "Room Rules": "Room Rules",
+        "Building Rules": "Building Rules",
+        "Add Rules": "Add new rules",
+        "Create Rules": "Create rules",
+        "Update Rules": "Update rules",
+        "Regulations": "Regulations",
+        "Content": "Content"
+      },
+      "customer": {
+        "Create Customer Rent": "Create Customer Rent",
+        "Update Customer Rent": "Update Customer Rent",
+        "Create Customer Deposit": "Create Customer Deposit",
+        "Update Customer Deposit": "Update Customer Deposit",
+        "Other Job": "Other Job",
+        "Expert": "Expert",
+        "Teacher": "Teacher",
+        "Engineer": "Engineer",
+        "Lawer": "Lawer",
+        "Journalist": "Journalist",
+        "Doctor": "Doctor",
+        "Police Army": "Police - Army",
+        "Other": "Other",
+        "Issued By": "Issued By",
+        "Date Range": "Date Range",
+        "Gender": "Gender",
+        "Main Rent": "Main Rent",
+        "Rent": "Rent",
+        "Review": "Review",
+        "Rate Review": "Rate Review"
+      }
+    },
+    "building_list": {
+      "Description": "Description",
+      "Price": "Price (VND)",
+      "Unit": "Unit",
+      "Utility": "Utility",
+      "Cost": "Cost",
+      "of": "of",
+      "items": "items",
+      "page": "page",
+      "room": {}
+    },
+    "building": {
+      "Add vehicle": "Add vehicle"
+    },
+    "permission": {
+      "permission": "permission"
+    }
+  },
+  "routes": {
+    "auth": {
+      "login": {
+        "title": "Sign In",
+        "subTitle": "Enter your details to login to your account",
+        "Log In": "Log In",
+        "Forgot Password?": "Forgot Password?",
+        "Register": "Register",
+        "Don't have an account?": "Don't have an account?",
+        "Confirm Password": "Confirm Password",
+        "Reset password": "Reset Password"
+      },
+      "register": {
+        "title": "Register",
+        "Register": "Register",
+        "subTitle": "",
+        "Fullname": "Fullname",
+        "Email": "Email",
+        "Password": "Password",
+        "Birth Date": "Birth Date",
+        "Gender": "Gender",
+        "Identity Number": "Identity Number",
+        "Phone Number": "Phone Number",
+        "Do you already have an account?": "Do you already have an account?",
+        "Login": "Login",
+        "Confirm your email": "Confirm your email",
+        "Please check your email and select the link to activate your account": "Please check your email and select the link to activate your account",
+        "Resend": "Resend",
+        "Resend Success": "Resend registration confirmation successfully",
+        "Please wait for the next confirmation": "Please wait for the next confirmation",
+        "Close": "Close",
+        "Register fail": "Register fail"
+      },
+      "reset-password": {
+        "Recovery Email": "Recovery Email",
+        "Enter Recovery Email/Phone": "Enter Email/Phone number",
+        "title": "Reset Password",
+        "Submit": "Submit",
+        "Back To Login": "Back To Login",
+        "Button Change": "Change Password",
+        "Forgot": "Forgot Password?",
+        "subTitle": "Please enter your email or phone number. OTP verification code will be sent to you.",
+        "Please Enter OTP": "Please enter the OTP sent to your phone number email",
+        "Enter OTP": "Enter OTP",
+        "Send OTP": "Send OTP",
+        "Get OTP": "Get OTP"
+      }
+    },
+    "admin": {
+      "Layout": {
+        "Search": "Search",
+        "English": "English",
+        "Vietnam": "Vietnamese",
+        "Available": "Available",
+        "Account Setting": "Account Setting",
+        "Sign out": "Sign out",
+        "Mark all as read": "Mark all as read",
+        "Setting": "Setting",
+        "Notifications": "Notifications",
+        "See All": "See All",
+        "Add": "Add new",
+        "Add from list": "Add from list",
+        "Edit": "Edit",
+        "Delete": "Delete",
+        "Download" : "Download",
+        "Approve": "Approve",
+        "Ownership Approve": "Cấp quyền chủ nhà",
+        "Reject": "Reject",
+        "Data manipulation": "Data manipulation",
+        "Export": "Export file",
+        "Import": "Import file",
+        "Download templates": "Download templates"
+      },
+      "dashboard": {
+        "Dashboard": "Dashboard"
+      },
+      "role-management": {
+        "Add Role": "Add Role",
+        "Edit Role": "Edit Role",
+        "Role List": "Role List",
+        "Role": "Role",
+        "Role Name": "Name roles",
+        "Permision": "Permision",
+        "Describe": "Describe"
+      },
+      "user-management": {
+        "User managerment": "User managerment",
+        "User Management": "User Management",
+        "Add User": "Add User",
+        "Edit User": "Edit User",
+        "Role": "Role",
+        "Update user information": "Update user information"
+      },
+      "job-management": {
+        "Job Management": "Job Management",
+        "Accept": "Approve",
+        "Reject": "Reject",
+        "Remove": "Remove",
+        "Approved": "Approved",
+        "Pending": "Pending",
+        "Rejected": "Rejected"
+      },
+      "building": {
+        "Create Building": "Create Building",
+        "Update Building": "Update Building",
+        "Create building cost from list": "Create building cost from list",
+        "Create building cost": "Create building cost",
+        "Create building Cost from list": "Update building cost from list",
+        "Update building cost": "Update building cost",
+        "Create building utilities from list": "Create building utilities from list",
+        "Create building utilities": "Create building utilities",
+        "Update building utilities from list": "Update building utilities from list",
+        "Update building utilities": "Update building utilities",
+        "Create building manager": "Create building utilities",
+        "Update building manager": "Update building utilities",
+        "Create building employee": "Create building employee",
+        "Update building employee": "Update building employee",
+        "detail": {
+          "room": {
+            "detail": {
+              "Tenant": "Tenant",
+              "Payment history": "Payment history",
+              
+              "Schedule": "Schedule",
+              "Deposited Customer": "Deposit Customer",
+              "Rented Customer": "Rented Customer",
+              "Contract":"Contract",
+              "expenses": {
+                "Update cost information": "Update cost information",
+                "Create new cost information": "Create new cost information"
+              },
+              "equipment": {
+                "Update equipment information": "Update equipment information",
+                "Create new equipment information": "Create new equipment information"
+              },
+              "payment history": {
+                "Update payment history information": "Update payment history information",
+                "Create new payment history information": "Create new payment history information"
+              },
+              "schedule": {
+                "Update appointment to see the room information": "Update appointment to see the room information",
+                "Create new appointment to see the room information": "Create new appointment to see the room information"
+              },
+              "Contract":
+              {
+                "Update rent contract information": "Update rent contract information ",
+                "Create new rent contract information": "Create new rent contract information"
+              }
+
+            }
+          },
+          "employee": {
+            "Staff name": "Staff name",
+            "Search staff": "Search staff",
+            "Find users hoder": "Find users by CMND,CCCD,Passport!",
+            "Roles": "Roles",
+            "SelectRolseUser": " Select the roles for user",
+            "CacelDelete": "Cancel",
+            "AcceptDelete": "Delete",
+            "Save": "Save",
+            "EnterDataValid": "Please enter data ID card valid",
+            "MessageError" : "Please enter at least 4 characters",
+            "MessageError1" : "Please enter less than 12 characters",
+            "Enter Name":"Enter name",
+            "Enter gerder" : "Gender",
+            "Enter address" : "Address",
+            "No matching" :"No matching results",
+            "Enter user add" : "Enter user to add",
+            "Phone Number" : "Phone number"
+
+          }
+        }
+      },
+      "room": {
+        "Create Room": "Create Room",
+        "Update Room": "Update Room"
+      },
+      "building-info": {
+        "General Information Uppercase": "GENERAL INFORMATION",
+        "General Information": "General Information",
+        "Expenses": "EXPENSES",
+        "Utilities": "UTILITIES",
+        "Room List": "ROOM LIST",
+        "Building Information": "Building Information",
+        "Create Building": "Create Building",
+        "Building detail": "Building detail",
+        "Edit Building": "Edit Building",
+        "Building List": "Building List",
+        "Room": "Room",
+        "Available": "Available",
+        "Rented": "Rented",
+        "Introduction": "Introduction",
+        "Introduction tab": "INTRODUCTION",
+        "Are you sure you choose photo avatar?": "Are you sure you want to choose this photo as your avatar?"
+      },
+      "room-info": {
+        "Room Information": "Room Information",
+        "Available": "Available",
+        "Contract": "Contract",
+        "Rented": "Rented",
+        "Almost Expired": "Almost Expired",
+        "Deposited": "Deposited",
+        "Public": "Public",
+        "Equipments": "EQUIPMENTS",
+        "Deposit Contract": "Deposit contract",
+        "Leases Contract": "Leases contract",
+        "almost expired": "Almost Expired",
+        "rent": "Rented",
+        "deposit": "Deposit",
+        "empty": "Empty",
+        "Update room utilities from list": "Update room utilities from list",
+        "Update room utilities": "Update room utilities",
+        "Create room utilities from list": "Create building utilities from list",
+        "Create room utilities": "Create building utilities",
+        "depositFail": "Room has been booked"
+      },
+      "employee": {
+        "Employee list": "Employee list",
+        "Find holder roles": "Find for roles",
+        "Find status": "Status search",
+        "Delete select": "Delete selected",
+        "Select all": "Select all",
+        "Uncheck all": "Uncheck all",
+        "CacelDelete": "Cancel",
+        "AcceptDelete": "Delete",
+        "User roles" : "User roles",
+        "Save" : "Save"
+      }
+    }
+  },
+  "layout": {
+    "Dashboard": "Dashboard",
+    "Building list": "Building List",
+    "Role setting": "Role Setting",
+    "User managerment": "User managerment",
+    "Employee list": "Employee list",
+    "Job list":"Job list"
+  },
+  "breadCrumb": {
+    "building": "Building list",
+    "detail": "Buidling detail",
+    "edit": "Edit buidling",
+    "creating": "Create buidling",
+    "detail-room": "Room detail",
+    "edit-room": "Edit room",
+    "creating-room": "Create room",
+    "dashboard": "Dashboard",
+    "role-setting": "Role Setting",
+    "employee": "Employee List",
+    "user-profile": "User Profile",
+    "user-managerment": "User managerment",
+    "quan-ly-cong-viec": "Workflow Management",
+    "job": "Job list",
+    "preview-contract" : "Preview Contract",
+    "Rental":"Rental",
+    "Deposit":"Deposit"
+  },
+  "enum": {
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "PENDING": "Pending",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected"
+  }
+}

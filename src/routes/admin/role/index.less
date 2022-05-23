@@ -1,0 +1,48 @@
+.userList {
+  .intro-x {
+    @apply mb-12;
+    .featureBar {
+      @apply bg-white mb-0 py-5 px-3;
+    }
+    .ant-table {
+      @apply px-3 py-3;
+
+      .ant-table-row {
+        .ant-table-cell:nth-child(7) {
+          @apply text-left;
+        }
+      }
+    }
+    >div:nth-child(3) {
+      @apply bg-white rounded-b-md m-0 px-5 pb-5 pt-2;
+
+      .ant-select-selector {
+        @apply border-x-0 border-t-0 border-b-2 rounded-none border-gray-500;
+
+      }
+      div:nth-child(2) {
+        @apply border-none;
+
+        button {
+          @apply mx-1;
+        }
+      }
+    }
+  }
+  .ant-form {
+    .ant-col {
+      .ant-col-xs-24:nth-child(4) {
+        @apply inline-block w-1/2;
+      }
+      .ant-col-xs-24:nth-child(5) {
+        @apply inline-block w-1/2;
+      }
+    }
+  }
+}
+.selectRole{
+  .ant-select-selection-overflow{
+    caret-color: transparent !important;
+  }
+}
+

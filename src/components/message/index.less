@@ -1,0 +1,40 @@
+.swal2-footer {
+  @apply relative;
+  // margin-bottom: -1.25em;
+  // padding-bottom: 1.25em;
+}
+// .swal2-actions {
+.swal2-popup .swal2-actions .swal2-styled.swal2-confirm.errorButton {
+  @apply bg-white font-bold text-black px-10;
+}
+.swal2-popup .swal2-actions .swal2-styled.swal2-confirm.errorButton:hover {
+  @apply bg-blue-600 text-white;
+}
+.swal2-popup {
+
+  .swal2-title, .swal2-html-container {
+    @apply leading-tight;
+  } 
+}
+.swal2-actions {
+  @apply bg-black/20 w-full p-3 sm:mt-10;
+  button {
+    @apply rounded-xl text-base font-bold p-2 basis-1/3 m-2;
+  }
+  .swal2-cancel {
+    @apply text-black bg-white;
+  }
+  .swal2-confirm, .swal2-cancel {
+    @apply sm:text-base text-xs;
+  }
+}
+// }
+
+// .swal2-popup .swal2-styled.swal2-confirm {
+//   border: 0;
+//   border-radius: 0.25em;
+//   background: initial;
+//   background-color: #3085d6;
+//   color: #fff;
+//   font-size: 1.0625em;
+// }

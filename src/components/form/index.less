@@ -1,0 +1,76 @@
+@import "drag";
+.ant-input:focus {
+  @apply border-blue-500 shadow shadow-blue-500/30 outline-0;
+}
+
+.ant-select {
+  &:not(.ant-select-customize-input) .ant-select-selector {
+    @apply rounded-xl border px-4 border-solid border-gray-400 ~'py-1.5 min-h-[2.5rem]' items-center;
+  }
+  &-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    @apply border-blue-300;
+  }
+  &-single.ant-select-show-arrow .ant-select-selection-item {
+    @apply pr-4;
+  }
+}
+.ant-form {
+  .ant-form-item-label {
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      @apply absolute ~"-top-0.5 -right-3.5";
+    }
+  }
+  .ant-checkbox-inner,
+  .ant-checkbox-checked:after {
+    @apply w-5 h-5 rounded border-2;
+  }
+  .ant-checkbox {
+    @apply top-1;
+  }
+}
+.ant-picker {
+  @apply rounded-xl border px-4 border-solid border-gray-100 h-10 items-center;
+}
+.form-add {
+  @apply  h-auto flex flex-col;
+
+  .form-add-item{
+    @apply gap-0 p-0 mb-2 border-gray-400 h-10 w-full flex justify-center items-center;
+    .ant-form-item{
+      @apply h-full w-1/2 flex justify-center items-center border ml-2 mb-0;
+      &-control{
+        @apply flex justify-center items-center w-full;
+        &-input{
+          @apply ml-2 w-11/12;
+        }
+      }
+    }
+  }
+
+
+  .anticon-plus{
+    @apply mr-2 ;
+  }
+  .form-input.ant-input {
+    @apply px-4 pt-1 w-full;
+  }
+  .icon-minus{
+    @apply cursor-pointer;
+
+  }
+  .ant-input:focus{
+    outline: none;
+    border: none;
+    box-shadow:none;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+}
+
+
